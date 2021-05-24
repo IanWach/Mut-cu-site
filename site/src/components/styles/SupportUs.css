@@ -9,7 +9,7 @@
     height: 500px;
     max-width: 1300px;
     margin: auto;
-    background-image:url(./ChristianUnionImage3.JPG);
+    background-image:url(../Support-Us/ChristianUnionImage3.JPG);
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover;
@@ -31,7 +31,7 @@
     font-weight: bold;
     margin-top: 20px;
     margin-bottom: 20px;
-    font-size: 45px;
+    font-size: 40px;
     color: rgb(231, 38, 38);
 }
 .First-Section p{
@@ -42,23 +42,29 @@
     font-family: Georgia;
     letter-spacing: 1px;
 }
+.First-Section i{
+    color: rgb(255, 0, 0);
+    font-weight: bold;
+}
 .First-Section button{
     text-transform: uppercase;
     background-color:  rgb(62, 62, 172);
-    color: white;
-    padding: 12px 35px;
-    font-size: 15px;
+    color: rgb(0, 0, 0);
+    padding: 12px 25px;
+    font-size: 19px;
     font-weight: bolder;
     border-radius: 25px;
     box-shadow: 4px 1px 2px 1px rgb(250, 249, 249);
+    margin-left: 40px;
 }
 .First-Section button:hover{
-    background-color: aqua;
+    background-color: rgb(0, 255, 255);
     color: blueviolet;
+    box-shadow:inset;
 }
 .Second-Section button{
     background-color: rgb(142, 49, 230);
-    padding: 10px 20px;
+    padding: 10px 15px;
     border-radius: 25px;
     text-transform: uppercase;
     margin-left: 100px;
@@ -66,6 +72,10 @@
     font-weight: bold;
     font-family: Times New Roman, Times, serif;
     font-size: 20px;
+}
+.Second-Section button:hover{
+    background-color: brown;
+    color: aqua;
 }
 .Second-Section p{
     color: rgb(248, 210, 183);
@@ -80,8 +90,7 @@ hr{
     align-items: center;
     height: 5px;
     margin: 20px auto;
-    background-color: rgb(233, 240, 233);
-    border: 2px green solid;
+    background-color: rgb(153, 241, 153);
     border-radius: 3px;
 }
 #First-Paragraph{
@@ -96,10 +105,10 @@ hr{
     #Screen-Size {
         width: 95%;
         display: block !important;
-        background-image: url(./ChristianUnionImage3.JPG);
-        background-size: contain ;
-        background-position: center;
+        background-image: url(../Support-Us/ChristianUnionImage3.JPG);
+        background-size: cover ;
         background-repeat: repeat;
+        
     }
     .First-Section{
     padding-bottom: 30px;
