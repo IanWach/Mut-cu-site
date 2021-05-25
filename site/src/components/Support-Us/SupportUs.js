@@ -11,9 +11,11 @@ function SupportUs(){
             </div>
                 <div className="Second-Section">
                     <hr/>
-                    <p id="First-Paragraph"><b>Galatians 6:9</b>	Let us not become weary in doing good, for at the proper time we will reap a harvest if we do not give up.</p>
+                    <p id="First-Paragraph"><b>GALATIANS 6:9</b>	Let us not become weary in doing good, for at the proper time we will reap a harvest if we do not give up.
                     <br/>
-                    <p id="Second-Paragraph"><b>6:10</b>	Therefore, as we have opportunity, let us do good to all people, especially to those who belong to the family of believers.</p>
+                    <b>:10</b> Therefore, as we have opportunity, let us do good to all people, especially to those who belong to the family of believers.</p>
+                    <br/>
+                    <p id="Second-Paragraph"><b>PHILIPPIANS 2:4</b> Let each of you look not only to his own interests, but also to the interests of others.</p>
                     <button>Support Us</button>
                     <hr/>
             </div>

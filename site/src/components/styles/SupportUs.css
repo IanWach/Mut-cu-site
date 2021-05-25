@@ -64,21 +64,23 @@
 }
 .Second-Section button{
     background-color: rgb(142, 49, 230);
-    padding: 10px 15px;
+    padding: 12px 20px;
     border-radius: 25px;
     text-transform: uppercase;
     margin-left: 100px;
-    margin-top: 50px;
+    margin-top: 35px;
     font-weight: bold;
     font-family: Times New Roman, Times, serif;
     font-size: 20px;
+    box-shadow:inset;
+    box-shadow: 2px 2px 4px;
 }
 .Second-Section button:hover{
     background-color: brown;
     color: aqua;
 }
 .Second-Section p{
-    color: rgb(248, 210, 183);
+    color: rgba(252, 220, 197, 0.911);
     margin-bottom: 10px;
     font-size: 25px;
     font-family: 'Times New Roman', Times, serif;
@@ -94,7 +96,7 @@ hr{
     border-radius: 3px;
 }
 #First-Paragraph{
-    padding: 50px 60px 0px;
+    padding: 5px 60px 0px;
 }
 #Second-Paragraph{
    padding: 0px 60px 0px;
@@ -106,8 +108,9 @@ hr{
         width: 95%;
         display: block !important;
         background-image: url(../Support-Us/ChristianUnionImage3.JPG);
-        background-size: cover ;
+        background-size:contain ;
         background-repeat: repeat;
+        height: 100%;
         
     }
     .First-Section{
@@ -119,7 +122,10 @@ hr{
     }
     .Second-Section{
     padding-bottom: 0px;
-    background-color:rgba(18, 18, 136, 0.918)  !important;   
+    background-color:rgba(17, 17, 88, 0.897)  !important;   
+    }
+#First-Paragraph{
+    padding-top: 40px;
     }
     hr{
         display: none;
