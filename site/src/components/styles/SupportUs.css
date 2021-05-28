@@ -4,16 +4,18 @@
     box-sizing: border-box;
 }
 .SupportUs-Container{
-    display: flex;
+    display: block;
     width: 100%;
     height: 500px;
-    max-width: 1300px;
-    margin: auto;
+    max-width: 1350px;   
+    
+}
+.First-Container{
+    display: flex;
     background-image:url(../Support-Us/ChristianUnionImage3.JPG);
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover;
-    
 }
 .First-Section{
     flex-basis: 50%;
@@ -29,10 +31,11 @@
 }
 .First-Section h1{
     font-weight: bold;
+    font-weight: bold;
     margin-top: 20px;
     margin-bottom: 20px;
     font-size: 40px;
-    color: rgb(231, 38, 38);
+    color: rgba(4, 4, 70, 0.9);
 }
 .First-Section p{
     line-height: 35px;
@@ -43,7 +46,7 @@
     letter-spacing: 1.4px;
 }
 .First-Section i{
-    color: rgb(255, 0, 0);
+    color: rgb(22, 22, 207);
     font-weight: bold;
 }
 .First-Section button{
@@ -94,6 +97,31 @@
     font-family: 'Times New Roman', Times, serif;
     line-height: 35px;
 
+}
+.Payment-Container{
+    Padding:10px 60px;
+    display: flex;
+    justify-content: space-around;
+    background-color: linear-gradient(rgba(4, 4, 70, 0.9),rgba(53, 163, 190, 0.9));
+}
+.Payment-Container div{
+    display: block;
+}
+.Payment-Container h1{
+    color: rgb(4, 214, 252);
+    align-items: center;
+}
+.Payment-Container p{
+    padding: 40px 0px ;
+    color:rgba(4, 4, 70, 0.9);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+}
+.Payment-Container h1:nth-child(3){
+    color: rgb(255, 230, 0);
+}
+.Payment-Container h1:nth-child(5){
+    color: rgb(0, 189, 247);
 }
 hr{
     width: 90%;
