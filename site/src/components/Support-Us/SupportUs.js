@@ -1,20 +1,40 @@
 import React from 'react'
-import './SupportUs.css'
+import '../styles/SupportUs.css'
+import {FaCcPaypal} from "react-icons/fa"
+import {FcCellPhone} from "react-icons/fc"
+import {AiOutlineBank} from "react-icons/ai"
 
 function SupportUs(){
     return(
-        <div className="SupportUs-Container" id="Screen-Size">
-            <div className="First-Section">
+        <section className="SupportUs-Container" id="Screen-Size">
+            <div className="Details-Section">
                 <h1>Support Us</h1>
-                <p>Serving in the church is not something we should need a special invitation to do. In every church there will be needs to meet and Christians to disciple. Church involvement is evidence that you are a Christian in first place because it is an avenue for using your spiritual gift to help others.</p>
-                <button>Learn More</button>
+                <p>The Christian Union is committed in undertaking various projects that need funding. This ranges from welfares that pertain the students and the community around the University. For this to happen effectively the union needs support from you. This can be support through prayers, Financial or any other way.  You can use </p>
+                <p><b>PHILIPPIANS 2:4</b> Let each of you look not only to his own interests, but also to the interests of others.</p>
+                <p><b>GALATIANS 6:10</b> Therefore, as we have opportunity, let us do good to all people, especially to those who belong to the family of believers.</p>
             </div>
-            <div className="Second-Section">
-                <p id="First-Paragraph"><b>Galatians 6:9</b>	Let us not become weary in doing good, for at the proper time we will reap a harvest if we do not give up.</p>
-                <br/>
-                <p id="Second-Paragraph"><b>6:10</b>	Therefore, as we have opportunity, let us do good to all people, especially to those who belong to the family of believers.</p>
+            <div className=" Payment-Section">
+                <p>For any Cash Contribution support us through:</p>
+                <div className="Payment-cont">
+                    <div>
+                        <h1>VIA M<i className="Red"><FcCellPhone/></i>ESA</h1>
+                        <p><b>Our PAYBILL NO:</b> 7056069</p> <p><b>Account Name: </b>Welfare</p>
+                        <hr/>
+                    </div>
+                    <div>
+                        <h1>VIA PAYPAL   <i><    FaCcPaypal/></i></h1>
+                        <p>mutcunion@gmail.com</p>
+                        <hr/>
+                    </div>
+                    <div>
+                        <h1>BANK ACCOUNT <  AiOutlineBank/></h1>
+                        <p><b>Bank Account:</b> XXXXX </p><p><b>Bank Name: KCB Bank</b></p> <p>Murang'a Branch</p>
+                        <hr/>
+                    </div>
+                </div>
             </div>
-        </div>
-    )
-}
-export default SupportUs
+        </section>
+        )
+    }
+            
+export default SupportUs;
