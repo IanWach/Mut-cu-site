@@ -1,7 +1,6 @@
 import React from 'react'
 import SupportUs from '../src/components/Support-Us/SupportUs'
 
-
 function App (){
   return(
     <div>

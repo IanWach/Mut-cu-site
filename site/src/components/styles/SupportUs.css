@@ -4,166 +4,131 @@
     box-sizing: border-box;
 }
 .SupportUs-Container{
-    display: block;
-    width: 100%;
-    height: 500px;
+   display: flex; 
+   width: 100vw;
+    height: 600px;
     max-width: 1350px;   
-    
-}
-.First-Container{
-    display: flex;
-    background-image:url(../Support-Us/ChristianUnionImage3.JPG);
+     background-image:url(../Support-Us/ChristianUnionImage3.JPG);
     background-position: center;
-    background-repeat: no-repeat;
     background-size:cover;
 }
-.First-Section{
-    flex-basis: 50%;
-    font-family: Tahoma, Geneva, Verdana, sans-serif;
-    padding-left: 50px;
-    background-color: rgba(53, 163, 190, 0.9);
-    padding-right: 30px;
-    padding-bottom: 15px
-}
-.Second-Section{
-    flex-basis: 50%;
-    background-color:rgba(4, 4, 70, 0.9) ;
-}
-.First-Section h1{
-    font-weight: bold;
-    font-weight: bold;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    font-size: 40px;
-    color: rgba(4, 4, 70, 0.9);
-}
-.First-Section p{
-    line-height: 35px;
-    margin-bottom: 30px;
-    font-size: 20px;
-    color: rgb(0, 0, 0);
-    font-family: Georgia;
-    letter-spacing: 1.4px;
-}
-.First-Section i{
-    color: rgb(22, 22, 207);
-    font-weight: bold;
-}
-.First-Section button{
-    text-transform: uppercase;
-    background-color:  rgb(62, 62, 172);
-    color: rgb(251, 255, 0);
-    padding: 12px 25px;
-    font-size: 19px;
-    font-weight: bolder;
-    border-radius: 33px;
-    box-shadow: 4px 1px 2px 1px rgba(34, 23, 138, 0.863);
-    margin-left: 40px;
-    cursor: pointer;
-}
-.First-Section button:hover{
-    background-color: rgb(0, 255, 242);
-    color: rgb(132, 0, 255);
-    box-shadow:inset;
-    transform: translateY(-5px);
-}
-.Second-Section b:nth-child(1){
-    background-color: rgba(255, 214, 248, 0.233);
-}
-.Second-Section button{
-    background-color: rgb(142, 49, 230);
-    padding: 12px 20px;
-    border-radius: 30px;
-    text-transform: uppercase;
-    margin-left: 100px;
-    margin-top: 35px;
-    font-weight: bold;
-    font-family: Times New Roman, Times, serif;
-    font-size: 21px;
-    outline-offset: 4px;
-    box-shadow: 2px 2px 4px;
-    color: rgb(231, 226, 243);
-    cursor: pointer;
-}
-.Second-Section button:hover{
-    background-color: brown;
-    color: aqua;
-    transform: translateY(-4px);
-}
-.Second-Section p{
-    color: rgba(252, 220, 197, 0.911);
-    margin-bottom: 10px;
+.Details-Section{
+    background-color: rgba(238, 208, 76, 0.651);
     font-size: 25px;
-    font-family: 'Times New Roman', Times, serif;
-    line-height: 35px;
-
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    flex-basis: 60%;
 }
-.Payment-Container{
-    Padding:10px 60px;
-    display: flex;
-    justify-content: space-around;
-    background-color: linear-gradient(rgba(4, 4, 70, 0.9),rgba(53, 163, 190, 0.9));
+.Details-Section h1{
+    margin: 10px 0px 25px 20px;
+    font-size: 50px;
 }
-.Payment-Container div{
-    display: block;
+.Details-Section p{
+    font-family: 'Roboto Slab';
+    line-height: 30px;
+    margin: 0px 20px 30px 30px;
+    word-spacing: 5px;
+    color: rgb(45, 42, 90);
 }
-.Payment-Container h1{
-    color: rgb(4, 214, 252);
-    align-items: center;
+.Payment-Section{
+    background-color: rgba(23, 23, 128, 0.603);
+    font-size: 1.3rem;
+    padding: 5px;
+    flex-basis: 40%;
 }
-.Payment-Container p{
-    padding: 40px 0px ;
-    color:rgba(4, 4, 70, 0.9);
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 30px;
+.Payment-Section > div{
+    padding:  10px 40px 20px 20px;
+    margin: 20px auto;
+    background-color: rgb(250, 229, 185);
+    width: 80%;
 }
-.Payment-Container h1:nth-child(3){
-    color: rgb(255, 230, 0);
+.Payment-Section h1{
+    font-family: 'Roboto Slab', serif;
+    margin-left: 5px;
+    margin-bottom: 10px;
 }
-.Payment-Container h1:nth-child(5){
-    color: rgb(0, 189, 247);
+.Payment-Section p{
+    margin-bottom: 15px;
+    margin-left: 10px;
+    padding-left: 20px;
+}
+.Payment-Section p{
+    font-size: 25px;
+    color: rgb(50, 30, 68);
+    margin: 20px 0px 10px 0px;
+}
+.Payment-Section p:nth-child(1){
+    color: rgb(0, 255, 34);
+    font-size: 25px;
 }
 hr{
-    width: 90%;
-    align-items: center;
+    bottom: 10px;
+    width: 75%;
     height: 5px;
-    margin: 20px auto;
-    background-color: rgb(153, 241, 153);
-    border-radius: 3px;
+    margin: 5px auto;
+    background-color: brown;
 }
-#First-Paragraph{
-    padding: 5px 60px 0px;
+i{
+    color:rgb(8, 8, 83);
 }
-#Second-Paragraph{
-   padding: 0px 60px 0px;
+.Red{
+    color: red;
 }
 
-@media only screen and (max-width: 1100px) {
-    
-    #Screen-Size {
-        width: 95%;
-        display: block !important;
-        background-image: url(../Support-Us/ChristianUnionImage3.JPG);
-        background-size:contain ;
-        background-repeat: repeat;
-        height: 100%;
-        
-    }
-    .First-Section{
-    padding-bottom: 30px;
-    background-color:rgba(26, 184, 224, 0.877) ; 
-    }
-    .First-Section h1{
-        padding-top: 25px;
-    }
-    .Second-Section{
-    padding-bottom: 0px;
-    background-color:rgba(17, 17, 88, 0.897)  !important;   
-    }
-#First-Paragraph{
-    padding-top: 40px;
+@media screen and (max-width: 1100px) {
+    h1 {
+        font-size: 25px;
+        padding: 0px;
+        margin: 0px;
     }
     hr{
         display: none;
     }
+    p {
+        font-size: 22px;
+        padding: 2px;
+        margin: 2px;
+    }
+    .SupportUs-Container{
+        display: block;
+        background-repeat: repeat;
+        background-position: center;
+        background-size: contain;
+        height: 100%;
+    }
+    .Payment-cont{
+        display: flex;
+        flex-direction: row;
+    }
+    .Payment-cont div:nth-child(1){
+        flex-basis: 35%;
+    }
+    .Payment-cont div:nth-child(2){
+        flex-basis: 15%;
+    }
+    .Payment-cont div:nth-child(3){
+        flex-basis:50%;
+    }
+    Payment-Section p{
+        padding: 2px;
+        margin: 0px;
+    }
+.Payment-Section > div{
+        padding: 0px;
+        margin: 0px 0px 5px 15px;
+        width: 95%;
+}
+}
+@media screen and (max-width: 700px) {
+    .Payment-cont{
+        display: flex;
+        flex-direction: column; 
+        padding: 10px 150px;
+        width: 70%;
+        
+}
+.Payment-cont div{
+        margin-left: 50px;
+        margin-top: 20px;
+}
 }
