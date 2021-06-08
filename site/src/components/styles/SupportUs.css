@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 .SupportUs-Container{
+<< SupportPlusPayment
    display: flex; 
    width: 100vw;
     height: 600px;
@@ -130,5 +131,4 @@ i{
 .Payment-cont div{
         margin-left: 50px;
         margin-top: 20px;
-}
 }
