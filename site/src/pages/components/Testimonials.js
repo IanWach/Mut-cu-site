@@ -1,12 +1,12 @@
 import React from 'react';
-import '../styles/AboutUs.css'
+import './Testimonials.css'
 
 function Testimonials (){
     return(
-        <div>
+        <div className="Testimonials-Containers">
             <h1>Our Testimonials</h1>
             <div>
-                <img/>
+                <img src={"/images/Testimonials-Image-3.JPG"}/>
                 <h3>Name</h3>
                 <h4>Role/ Field/ Occupation</h4>
                 <p>Brief Intro and Impact they have seen from th Christian Uionn. All how they have worked with the union</p>

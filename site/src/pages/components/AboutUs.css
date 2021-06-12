@@ -1,0 +1,262 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    border: 1px orange solid;
+    margin: auto;
+    padding: 15px 15px;
+    font-family: Tahoma;
+    background-color: white;
+    width: 95%;
+}
+/*...........Introduction Part Css....................*/
+.Main-Container{
+    font-family: "Times-New-Roman";
+}
+b{
+    font-size: 100px;
+    font-weight: bold;
+    
+}
+.Intro-Container{
+    background-color: rgb(255, 255, 255);
+    border-bottom: 3px solid red;
+    margin: 15px;
+    padding: 15px 35px;
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+.Intro-Banner h1{
+    font-size:35px;
+    color:rgb(0, 119, 255);
+    font-family: Tahoma;
+    padding: 35px 0px 15px 0px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+.ian{
+    width: 400px;    
+    height: auto;
+    padding-left: 40px;
+}
+.Intro-Banner{
+    background-image: url(./images/ch.JPG);
+    height: 120px;
+    background-size: contain;
+    
+}
+.Intro-Container p{
+    font-size: 25px;
+    margin-bottom: 22px;
+    color: rgb(0, 0, 0);
+    line-height:30px;
+    
+}
+.Par-Container{
+    flex-basis: 60%;
+    padding-bottom: 50px;
+    padding-top: 20px;
+}
+.Intro-Container ol{
+    background-color: rgb(253, 164, 0);
+    margin: 10px 30px;
+    padding: 20px;
+    width: 95%;
+}
+.Intro-Container ol li{
+    font-size: 25px;
+    padding: 10px 10px 5px 0px;
+    list-style-type: disc;
+    list-style: inside;
+    color: rgb(248, 0, 0);
+    font-weight: bold;
+}
+.Side-Container{
+    flex-basis: 30%;
+}
+.Side-Container p{
+    font-weight: bold;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20px 0px 10px 30px;
+}
+hr{
+    color: blue;
+    height: 5px;
+}
+em, hr{
+    display: block;
+}
+
+.IntroP-1{
+
+}
+.IntroP-2{
+
+}
+.IntroP-3{
+ 
+}
+/* .......The Media Query for change in screen size for the Intro Conateiner;........*/
+@media screen and (max-width: 1100px) {
+    .Intro-Container{
+        width:95%;
+    }
+    
+}
+/*.........The Cu Information including Motto, Vision and Mission Statement.......*/
+
+.CuInfo-Container{
+ margin: 20px;
+ display: flex;
+ width: 95%;
+ flex-wrap: wrap;
+ justify-content: space-around;
+}
+.CuInfo-Heading{
+    color:rgb(10, 10, 10);
+    font-size: 40px;
+    padding-left: 70px;
+    text-decoration: underline double;
+}
+.CuInfo-Container h2{
+    color:blueviolet;
+    font-size: 30px;
+    padding: 0px 25px 20px 15px;
+}
+.CuInfo-Container p{
+    color:rgb(0, 0, 0);
+    font-size: 25px;
+    padding: 0px 50px 0px 20px;
+}
+.CuInfo-Container div{
+    background-color: rgba(252, 80, 0, 0.753);
+    padding: 20px;
+    height: 90%px;
+    
+}
+.CuInfo-1{
+    flex-basis: 35%;
+    align-self: auto;
+    margin: auto;
+}
+.CuInfo-2{
+    flex-basis: 50%;
+}
+.CuInfo-3{
+    
+    flex-basis: 60%;
+    margin-top: 40px;
+    padding-top: 20px;
+}
+
+@media screen and (max-width: 1000px){
+.Intro-Container p{
+    font-size: 23px;
+}
+.CuInfo-Container{
+    display: block;
+    margin: 50px auto;
+    width: 70%;
+}
+.CuInfo-2{
+    margin-top: 50px;
+    height: 100%;
+}
+}
+@media screen and (max-width: 900px){
+    .CuInfo-Container p{
+        font-size: 22px;
+        word-spacing: 5px;
+        color: black;
+    }
+}
+@media screen and (max-width: 750px){
+    .Intro-Container p{
+        font-size: 20px;
+    }
+    .CuInfo-Container p{
+        font-size: 20px;
+        color: black;
+        width:100%;
+    }
+    .CuInfo-Heading{
+        padding-left: 10px;
+        font-size: 32px;
+}
+}
+@media screen and (max-width: 500px){
+    .CuInfo-Container{
+        height: fit-content;
+    }
+}
+/*....Aims Conatiner......*/
+
+.Aims-Container{
+ padding: 20px;
+ background-color: rgb(255, 255, 255);
+ margin: 20px auto;
+ width: 95%;
+}
+.Aims-Heading{
+    margin-bottom: 20px;
+    font-size: 35px;
+    padding:30px 50px;
+}
+.Aims-Container h3{
+    font-size: 30px;
+    font-family: tahoma;
+    margin-bottom: 20px;
+}
+.Aims-Container p{
+    font-size: 23px;
+    padding-bottom: 15px;
+}
+.Aims-Container div{
+    width: 70%;
+    margin: auto;
+    margin-left: 70px;
+
+}
+/*.Aim-1{
+    width: 70%;
+    margin: auto;
+    margin-left: 70px;
+}
+.Aim-2{
+    width: 70%;
+    margin: auto; 
+    margin-left: 70px;
+}
+.Aim-3{
+    width: 70%;
+    margin: auto;
+    margin-left: 70px;
+}
+.Aim-4{
+    width: 70%;
+    margin: auto;
+    margin-left: 70px;
+}
+*/
+@media screen and (max-width: 1000px){
+.Aims-Container p{
+    font-size: 20px;
+}
+.Aims-Container h3{
+    font-size: 22px;
+}
+}
+
+/*...........Testimonials....................*/
+
+/*...........Slideshow....................*/
+
+
+/*...........Additional....................*/
+div{
+    background-color: none;
+}

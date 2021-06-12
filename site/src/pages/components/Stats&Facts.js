@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/AboutUs.css'
+import './Stats.css'
 
 function Stats (){
     return(

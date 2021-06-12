@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/AboutUs.css'
+import './slideshow.css'
 
 function Slideshows (){
     return(

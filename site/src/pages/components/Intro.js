@@ -1,19 +1,41 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import '../styles/AboutUs.css'
+import './AboutUs.css'
 
 
 function Introduction(){
     return(
         <div className="Main-Container">
-            <div className="Intro-Container">
+            <div className="Intro-Banner">
                 <h1>WHO WE ARE & WHAT WE DO</h1>
-                <p className="IntroP-1"><b>M</b>urng'a University Christian Union (MUTCU) is Et occaecat minim mollit quis dolore in deserunt. Sit incididunt eiusmod enim sint esse ut cillum. Reprehenderit pariatur anim reprehenderit eiusmod id consequat dolore. Fugiat ullamco esse qui adipisicing culpa nulla consectetur occaecat consectetur fugiat. Culpa eu in sit excepteur sint exercitation ad elit duis reprehenderit officia.</p>
-                <p className="IntroP-2">Ex nostrud consectetur occaecat sint veniam quis laboris ex enim aliquip sunt sint. Minim aute et reprehenderit sit. Aute nisi proident veniam ea adipisicing amet duis velit nostrud non laboris occaecat duis cillum. Ad proident eiusmod proident tempor tempor consectetur adipisicing esse minim ea velit magna commodo.</p>
-                <p className="IntroP-3"> Cillum ut esse deserunt laborum. Labore officia reprehenderit veniam Lorem aliquip culpa ad ipsum culpa deserunt eiusmod. Velit ex voluptate esse voluptate magna amet occaecat enim voluptate fugiat occaecat labore eiusmod Lorem.</p>
-               {/*<img src={require('../pages/ChristianUnionImage6.JPG')} />*/}
-                <em>Dolore incididunt eu occaecat consectetur culpa.</em>
             </div>
+            <div className="Intro-Container">
+                <div className="Par-Container">
+                    <p className="IntroP-1"><b>M</b>urng'a University of Technology Christian Union (MUTCU) is Et occaecat minim mollit quis dolore in deserunt. Sit incididunt eiusmod enim sint esse ut cillum. Reprehenderit pariatur anim reprehenderit eiusmod id consequat dolore. Fugiat ullamco esse qui adipisicing culpa nulla consectetur occaecat consectetur fugiat. Culpa eu in sit excepteur sint exercitation ad elit duis reprehenderit officia.</p>
+                    <p className="IntroP-2">Ex nostrud consectetur occaecat sint veniam quis laboris ex enim aliquip sunt sint. Minim aute et reprehenderit sit. Aute nisi proident veniam ea adipisicing amet duis velit nostrud non laboris occaecat duis cillum. Ad proident eiusmod proident tempor tempor consectetur adipisicing esse minim ea velit magna commodo.</p>
+                    <p className="IntroP-3"> Cillum ut esse deserunt laborum. Labore officia reprehenderit veniam Lorem aliquip culpa ad ipsum culpa deserunt eiusmod. Velit ex voluptate esse voluptate magna amet occaecat enim voluptate fugiat occaecat labore eiusmod Lorem.</p>
+                    <p>Labore aliquip laboris et nostrud fugiat ea velit. Cillum amet voluptate ea officia consectetur. Magna mollit adipisicing duis culpa culpa ut in deserunt aliquip amet nisi do reprehenderit. </p>
+                   
+                </div>
+                <div className="Side-Container">
+                    <img className="ian" src={"/images/ch.JPG"} />
+                    <p>What we do</p>
+                    <ol>
+                        <li>Activity of the union one</li>
+                        <li> Activity of the union 2</li>
+                        <li> Activity of the union Three</li>
+                        <li> Activity of the union 4</li>
+                        <li> Activity of the union five</li>
+                        <li> Activity of the union 6</li>
+                    </ol>
+                     
+                </div>
+                <hr/>
+            <em>Dolore incididunt eu occaecat consectetur culpa.</em>
+            </div>
+            
+
+            
              <h1 className="CuInfo-Heading">MUTCU INFORMATION</h1>
              <div className="CuInfo-Container">
                 <img src="" alt="" className="LogoPNG"/>

@@ -1,0 +1,46 @@
+/*...........Stats and Facts....................*/
+
+.Facts-Container{
+    background-color: rgb(0, 153, 255);
+    display: flex;
+    flex-flow: row;
+    text-transform: uppercase;
+    justify-content: space-around;
+    margin: 0px 30px;
+}
+.Facts-Container p{
+    padding: 10px 60px;
+    font-size: 35px;
+    font-weight: bold;
+    color: blueviolet;
+    width: 200px;
+    margin-bottom: 50px;
+}
+.Stats-Container h1{
+    margin: 50px 0px 40px 40px;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+.Facts-Container h2{
+    padding: 40px 20px 10px 20px;
+}
+@media screen and (max-width: 1000px){
+.Facts-Container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.Stats-1{
+    flex-basis: 50%;
+    padding: auto;
+}
+.Stats-2{
+    flex-basis: 50%
+}
+.Stats-3{
+    flex-basis: 50%;
+}
+.Stats-4{
+    flex-basis: 50%;
+    padding: auto;
+}
+}

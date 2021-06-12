@@ -1,0 +1,29 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.Testimonials-Containers div{
+    border: 3px greenyellow solid;
+    width:500px ;
+    height:400px ;
+    margin: 100px;
+    padding: 20px 70px;
+}
+.Testimonials-Containers div p{
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.Testimonials-Containers div h3{
+    padding: 4px 10px;
+    color: orangered;
+}
+.Testimonials-Containers div h4{
+    padding: 5px 12px 12px 10px;
+    color: purple;
+}
+.Testimonials-Containers div img{
+    width: 150px;
+    border-radius: 50%;
+    margin: auto;
+}
