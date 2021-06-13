@@ -3,27 +3,43 @@
     padding: 0px;
     box-sizing: border-box;
 }
-.Testimonials-Containers div{
-    border: 3px greenyellow solid;
-    width:500px ;
-    height:400px ;
-    margin: 100px;
-    padding: 20px 70px;
+body{
+    overflow-x:  hidden; 
 }
-.Testimonials-Containers div p{
+.test-div{
+    border: 3px greenyellow solid;
+    padding: 40px 100px;
+    flex: 1;
+    min-width: 480px;
+    margin: 100px 2px;
+}
+.test-div p{
     font-size: 25px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-.Testimonials-Containers div h3{
+.test-div h3{
     padding: 4px 10px;
     color: orangered;
+    margin: 10px 0px 5px 65px;
+    font-size: 20px;
 }
-.Testimonials-Containers div h4{
+.test-div h4{
     padding: 5px 12px 12px 10px;
     color: purple;
+    margin-left: 70px;
+    margin-bottom: 15px;
 }
-.Testimonials-Containers div img{
+.test-div img{
     width: 150px;
     border-radius: 50%;
-    margin: auto;
+    margin-left: 70px;
+}
+.Testimonials-Containers{
+    display: flex;
+    width: 1000px;
+}
+h1{
+    font-size: 50px;
+    margin: 50px 0px 30px 40px;
+    color:  rgb(255,60,77);
 }

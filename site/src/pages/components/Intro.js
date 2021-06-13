@@ -9,6 +9,7 @@ function Introduction(){
             <div className="Intro-Banner">
                 <h1>WHO WE ARE & WHAT WE DO</h1>
             </div>
+            <img className="Image-Logo" src={"/images/MutcuLogo.png"}/>
             <div className="Intro-Container">
                 <div className="Par-Container">
                     <p className="IntroP-1"><b>M</b>urng'a University of Technology Christian Union (MUTCU) is Et occaecat minim mollit quis dolore in deserunt. Sit incididunt eiusmod enim sint esse ut cillum. Reprehenderit pariatur anim reprehenderit eiusmod id consequat dolore. Fugiat ullamco esse qui adipisicing culpa nulla consectetur occaecat consectetur fugiat. Culpa eu in sit excepteur sint exercitation ad elit duis reprehenderit officia.</p>
