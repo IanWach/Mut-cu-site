@@ -7,32 +7,36 @@ body{
     border: 1px orange solid;
     margin: auto;
     padding: 15px 15px;
-    font-family: Tahoma;
     background-color: white;
     width: 95%;
 }
 /*...........Introduction Part Css....................*/
 .Main-Container{
-    font-family: "Times-New-Roman";
+   
 }
 .Image-Logo{
-    width: 120px;
-    height: 120px;
-    margin: 10px 40%;
+    width: 250px;
+    height: auto;
+    align-content: center ;
+    margin: 35px 35% 15px 35%;
 }
 b{
-    font-size: 100px;
+    font-size: 70px;
     font-weight: bold;
-    
+    margin-right: 3px;
 }
 .Intro-Container{
     background-color: rgb(255, 255, 255);
-    border-bottom: 3px solid red;
     margin: 15px;
     padding: 15px 35px;
     display: flex;
     flex-wrap: wrap;
+    font-family: 'Merriweather', serif;
    
+}
+.Border-B{
+    border-bottom: 3px solid red;
+    margin-top: 30px;
 }
 .Intro-Banner h1{
     font-size:35px;
@@ -54,7 +58,7 @@ b{
     
 }
 .Intro-Container p{
-    font-size: 25px;
+    font-size: 20px;
     margin-bottom: 22px;
     color: rgb(0, 0, 0);
     line-height:30px;
@@ -62,55 +66,118 @@ b{
 }
 .Par-Container{
     flex-basis: 60%;
-    padding-bottom: 50px;
+    padding-bottom: 2px;
     padding-top: 20px;
 }
+.Hide-Image{
+    display: none;
+}
 .Intro-Container ol{
-    background-color: rgb(253, 164, 0);
-    margin: 10px 30px;
-    padding: 20px;
+    margin: 5px 15px;
+    padding: 10px 5px;
     width: 95%;
 }
 .Intro-Container ol li{
-    font-size: 25px;
+    font-size: 22px;
     padding: 10px 10px 5px 0px;
     list-style-type: disc;
     list-style: inside;
     color: rgb(248, 0, 0);
     font-weight: bold;
 }
+.Activity-list{
+   background-color: rgb(253, 164, 0); 
+}
 .Side-Container{
-    flex-basis: 30%;
+    flex-basis: 35%;
+}
+.Activity-list{
+    margin-left: 35px;
+    margin-top: 35px;
 }
 .Side-Container p{
     font-weight: bold;
     font-size: 25px;
     font-family: 'Times New Roman', Times, serif;
-    padding: 20px 0px 10px 30px;
-}
-hr{
-    color: blue;
-    height: 5px;
-}
-em, hr{
-    display: block;
-}
-
-.IntroP-1{
-
-}
-.IntroP-2{
-
-}
-.IntroP-3{
- 
+    padding: 10px 0px 0px 30px;
+    margin-bottom: 0px;
 }
 /* .......The Media Query for change in screen size for the Intro Conateiner;........*/
-@media screen and (max-width: 1100px) {
-    .Intro-Container{
-        width:95%;
+@media screen and (max-width: 1200px) {
+    .Intro-Container p{
+        font-size: 17.5px;
+    }
+    .Intro-Container ol li{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 1192px) {
+    
+    .Par-Container{
+        flex-basis: 95%;     
+    }
+    .Side-Container{
+        display: flex;
+        flex-basis: 95%;
+    }
+    .ian{
+        padding-left: 5px;
+    }
+    .Side-Container ol{
+        flex-basis: 60%;
+        margin: 5px;
+        padding: 10px;
+    }
+    .Side-Container p{
+        margin: 0px 10px 5px 10px;
+        padding: 0px 10px;
+        font-size: 22px;
+    }
+    .Side-Container img{
+        margin-right: 30px;
+        padding-top: 30px;
+        height: 400px;
     }
     
+}
+@media screen and (max-width: 1000px) {
+    .Intro-Container p{
+        font-size: 17px;
+    }
+    .Side-Container ol li{
+        font-size: 15px;
+        margin-left: 0px;
+        margin-right: 3px;
+    }
+    .Side-Container Img{
+        width: auto;
+        margin-right: 5px;
+    }
+}
+@media screen and (max-width: 980px) {
+    .Activity-list{
+        display: none;
+    }
+    .Side-Container Img{
+        width: 85%;
+        margin: auto;
+        flex-basis: 95%;
+        height: auto;
+    }
+    .Intro-Container p{
+        font-size: 17px;
+    }
+}
+@media screen and (max-width: 750px) {
+    .Hide-Image{
+        display: block;
+        width: 95%;
+        margin: auto;
+        padding: 10px;
+    }
+    #Hide-Img{
+        display: none;
+    }
 }
 /*.........The Cu Information including Motto, Vision and Mission Statement.......*/
 
@@ -159,9 +226,6 @@ em, hr{
 }
 
 @media screen and (max-width: 1000px){
-.Intro-Container p{
-    font-size: 23px;
-}
 .CuInfo-Container{
     display: block;
     margin: 50px auto;
@@ -180,9 +244,6 @@ em, hr{
     }
 }
 @media screen and (max-width: 750px){
-    .Intro-Container p{
-        font-size: 20px;
-    }
     .CuInfo-Container p{
         font-size: 20px;
         color: black;
@@ -196,6 +257,9 @@ em, hr{
 @media screen and (max-width: 500px){
     .CuInfo-Container{
         height: fit-content;
+    }
+    .Intro-Container p{
+        font-size: 17px;   
     }
 }
 /*....Aims Conatiner......*/
@@ -215,6 +279,7 @@ em, hr{
     font-size: 30px;
     font-family: tahoma;
     margin-bottom: 20px;
+    color: orange;
 }
 .Aims-Container p{
     font-size: 23px;
@@ -226,27 +291,7 @@ em, hr{
     margin-left: 70px;
 
 }
-/*.Aim-1{
-    width: 70%;
-    margin: auto;
-    margin-left: 70px;
-}
-.Aim-2{
-    width: 70%;
-    margin: auto; 
-    margin-left: 70px;
-}
-.Aim-3{
-    width: 70%;
-    margin: auto;
-    margin-left: 70px;
-}
-.Aim-4{
-    width: 70%;
-    margin: auto;
-    margin-left: 70px;
-}
-*/
+
 @media screen and (max-width: 1000px){
 .Aims-Container p{
     font-size: 20px;
@@ -255,13 +300,8 @@ em, hr{
     font-size: 22px;
 }
 }
-
-/*...........Testimonials....................*/
-
-/*...........Slideshow....................*/
-
-
-/*...........Additional....................*/
-div{
-    background-color: none;
+@media screen and (max-width: 500px){
+    body{
+        border: none;
+    }
 }

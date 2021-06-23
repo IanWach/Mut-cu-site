@@ -38,7 +38,7 @@ body{
     display: flex;
     width: 1000px;
 }
-h1{
+.Main-Heading h1{
     font-size: 50px;
     margin: 50px 0px 30px 40px;
     color:  rgb(255,60,77);

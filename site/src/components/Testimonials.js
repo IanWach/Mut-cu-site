@@ -5,7 +5,7 @@ import { TestimonialsData} from './TestimonialsData'
 function Testimonials (){
     return(
         <>
-            <h1>Our Testimonials</h1>
+            <h1 className="Main-Heading">Our Testimonials</h1>
             <div className="Testimonials-Containers">    
             {TestimonialsData.map((Item, index) =>{
                 return(

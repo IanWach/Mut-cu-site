@@ -7,14 +7,14 @@ export const TestimonialsData = [
         Image: "/images/Testimonials-Image-1.JPG",
         Name: 'Dr. Ndia',
         Role: 'The Patron',
-        Description: 'Brief Intro and Impact they have seen from th Christian Uionn. All how they have worked with the union',
+        Description: 'Brief Intro and Impact they have seen from th Christian Union. All how they have worked with the union',
         cName: 'test-div'
     },
     {
         Image: "/images/Testimonials-Image-1.jpg",
         Name: 'First Second',
         Role: 'Associate',
-        Description: 'Brief Intro and Impact they have seen from th Christian Uionn. All how they have worked with the union',
+        Description: 'Brief Intro and Impact they have seen from th Christian Union. All how they have worked with the union',
         cName: 'test-div'
     },
     {
