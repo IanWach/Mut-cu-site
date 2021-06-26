@@ -44,5 +44,5 @@ export const TestimonialsData = [
         Role: 'FOCUS Staff',
         Description: 'Brief Intro and Impact they have seen from th Christian Uionn. All how they have worked with the union',
         cName: 'test-div'
-    },
+    }
 ]

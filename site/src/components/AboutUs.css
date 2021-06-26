@@ -11,14 +11,23 @@ body{
     width: 95%;
 }
 /*...........Introduction Part Css....................*/
-.Main-Container{
-   
+.container{
+   position: relative;
+   text-align: center;
+}
+.container Img{
+    width: 100%;
+    height: 500px;
 }
 .Image-Logo{
     width: 250px;
     height: auto;
     align-content: center ;
-    margin: 35px 35% 15px 35%;
+    position: relative;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,50%);
+    margin-bottom: 50px;
 }
 b{
     font-size: 70px;
@@ -30,7 +39,6 @@ b{
     margin: 15px;
     padding: 15px 35px;
     display: flex;
-    flex-wrap: wrap;
     font-family: 'Merriweather', serif;
    
 }
@@ -38,9 +46,15 @@ b{
     border-bottom: 3px solid red;
     margin-top: 30px;
 }
+em{
+    font-size: 45px;
+}
+.Intro-Banner{
+
+}
 .Intro-Banner h1{
-    font-size:35px;
-    color:rgb(0, 119, 255);
+    font-size:70px;
+    color:rgb(0, 153, 255);
     font-family: Tahoma;
     padding: 35px 0px 15px 0px;
     margin-left: 20px;
@@ -52,9 +66,10 @@ b{
     padding-left: 40px;
 }
 .Intro-Banner{
-    background-image: url(./images/ch.JPG);
-    height: 120px;
-    background-size: contain;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     
 }
 .Intro-Container p{
@@ -114,11 +129,16 @@ b{
 @media screen and (max-width: 1192px) {
     
     .Par-Container{
-        flex-basis: 95%;     
+        flex-basis: 100%;
+        width: 95%;
     }
     .Side-Container{
         display: flex;
         flex-basis: 95%;
+    }
+    .Intro-Container{
+        flex-wrap: wrap;
+        display: block;
     }
     .ian{
         padding-left: 5px;
@@ -140,6 +160,10 @@ b{
     }
     
 }
+@media screen and (max-width: 1072px) {
+    
+}
+
 @media screen and (max-width: 1000px) {
     .Intro-Container p{
         font-size: 17px;
@@ -189,23 +213,23 @@ b{
  justify-content: space-around;
 }
 .CuInfo-Heading{
-    color:rgb(10, 10, 10);
+    color:white;
     font-size: 40px;
     padding-left: 70px;
     text-decoration: underline double;
 }
 .CuInfo-Container h2{
-    color:blueviolet;
     font-size: 30px;
     padding: 0px 25px 20px 15px;
 }
 .CuInfo-Container p{
-    color:rgb(0, 0, 0);
-    font-size: 25px;
+    color: white;
+    font-size: 22px;
     padding: 0px 50px 0px 20px;
+    font-weight: bold;
 }
 .CuInfo-Container div{
-    background-color: rgba(252, 80, 0, 0.753);
+    color: White;
     padding: 20px;
     height: 90%px;
     
@@ -214,15 +238,18 @@ b{
     flex-basis: 35%;
     align-self: auto;
     margin: auto;
+    background-color: rgb(17, 17, 124);
 }
 .CuInfo-2{
     flex-basis: 50%;
+    background-color: red;
 }
 .CuInfo-3{
     
     flex-basis: 60%;
     margin-top: 40px;
     padding-top: 20px;
+    background-color: rgb(255, 102, 0);
 }
 
 @media screen and (max-width: 1000px){
@@ -240,13 +267,11 @@ b{
     .CuInfo-Container p{
         font-size: 22px;
         word-spacing: 5px;
-        color: black;
     }
 }
 @media screen and (max-width: 750px){
     .CuInfo-Container p{
         font-size: 20px;
-        color: black;
         width:100%;
     }
     .CuInfo-Heading{
