@@ -1,25 +1,25 @@
 /*...........Stats and Facts....................*/
 
 .Facts-Container{
-    background-color: rgb(0, 153, 255);
+    background-color: rgba(0, 153, 255, 0.712);
     display: flex;
-    flex-flow: row;
     text-transform: uppercase;
     justify-content: space-around;
-    margin: 0px 30px;
+    margin: 0px 50px;
 }
 .Facts-Container p{
     padding: 10px 60px;
-    font-size: 35px;
+    font-size: 45px;
     font-weight: bold;
-    color: blueviolet;
-    width: 200px;
-    margin-bottom: 50px;
+    color: rgb(226, 43, 43);
+    width: 150px;
+    margin-bottom: 20px;
 }
 .Stats-Container h1{
-    margin: 50px 0px 40px 40px;
+    margin: 5px 0px 15px 40px;
     font-size: 40px;
     text-transform: uppercase;
+    color: rgb(16, 16, 83);
 }
 .Facts-Container h2{
     padding: 40px 20px 10px 20px;
@@ -29,15 +29,20 @@
     display: flex;
     flex-wrap: wrap;
 }
+.Facts-Container p{
+    margin-bottom: 5px;
+}
 .Stats-1{
     flex-basis: 50%;
     padding: auto;
 }
 .Stats-2{
-    flex-basis: 50%
+    flex-basis: 50%;
+    padding: auto;
 }
 .Stats-3{
     flex-basis: 50%;
+    padding: auto;
 }
 .Stats-4{
     flex-basis: 50%;

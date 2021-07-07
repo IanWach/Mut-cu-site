@@ -1,11 +1,21 @@
 import React from 'react';
 import './slideshow.css'
+import { FaAngleDoubleRight,FaAngleDoubleLeft } from 'react-icons/fa';
 
-function Slideshows (){
+function Slides (){
     return(
-        <div>
-            <center><h1>Slideshow</h1></center>
+        <>
+        <h1 className='Slide-Head'>Our Activities</h1>
+        < div className="Slides-Container">
+        <div className=''>
+               <i className='fa-angle-Left' aria-hidden='true'>< FaAngleDoubleLeft/> </i>
+
         </div>
-    )
-}
-export default Slideshows
+        <div className=''>
+         <i className='fa-angle-Right' aria-hidden='true'>< FaAngleDoubleRight/> </i>
+
+         </div>
+        </div>
+        </>
+    )}
+    export default Slides

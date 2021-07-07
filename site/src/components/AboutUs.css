@@ -15,9 +15,15 @@ body{
    position: relative;
    text-align: center;
 }
-.container Img{
-    width: 100%;
-    height: 500px;
+.container div{
+    width: 93vw;
+    background-image: url(./IntroBanner.jpg);
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0px;
+    height: 720px;
+    background-size: cover;
+
 }
 .Image-Logo{
     width: 250px;
@@ -39,7 +45,7 @@ b{
     margin: 15px;
     padding: 15px 35px;
     display: flex;
-    font-family: 'Merriweather', serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
    
 }
 .Border-B{
@@ -53,27 +59,25 @@ em{
 
 }
 .Intro-Banner h1{
-    font-size:70px;
+    font-size:85px;
     color:rgb(0, 153, 255);
     font-family: Tahoma;
     padding: 35px 0px 15px 0px;
     margin-left: 20px;
     margin-bottom: 30px;
-}
-.ian{
-    width: 400px;    
-    height: auto;
-    padding-left: 40px;
-}
-.Intro-Banner{
+    bottom: 49%;
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
-    
+}
+.ParImg{
+    width: 27vw;    
+    height: auto;
+    padding-left: 35px;
 }
 .Intro-Container p{
-    font-size: 20px;
+    font-size: 19px;
     margin-bottom: 22px;
     color: rgb(0, 0, 0);
     line-height:30px;
@@ -139,8 +143,9 @@ em{
     .Intro-Container{
         flex-wrap: wrap;
         display: block;
+        padding: 0px;
     }
-    .ian{
+    .ParImg{
         padding-left: 5px;
     }
     .Side-Container ol{
@@ -156,7 +161,7 @@ em{
     .Side-Container img{
         margin-right: 30px;
         padding-top: 30px;
-        height: 400px;
+        width: 90%;
     }
     
 }
@@ -174,8 +179,13 @@ em{
         margin-right: 3px;
     }
     .Side-Container Img{
-        width: auto;
+        width: 90%;
         margin-right: 5px;
+    }
+    .container img{
+    }
+    .Intro-Banner H1{
+        font-size:40px;
     }
 }
 @media screen and (max-width: 980px) {
@@ -187,6 +197,7 @@ em{
         margin: auto;
         flex-basis: 95%;
         height: auto;
+        align-items: center;
     }
     .Intro-Container p{
         font-size: 17px;
@@ -195,7 +206,7 @@ em{
 @media screen and (max-width: 750px) {
     .Hide-Image{
         display: block;
-        width: 95%;
+        width: 90%;
         margin: auto;
         padding: 10px;
     }
@@ -290,40 +301,68 @@ em{
 /*....Aims Conatiner......*/
 
 .Aims-Container{
- padding: 20px;
+ 
  background-color: rgb(255, 255, 255);
- margin: 20px auto;
- width: 95%;
+ background: url(./ChristianUnionImage3.JPG);
+ background-size:cover;
 }
 .Aims-Heading{
     margin-bottom: 20px;
-    font-size: 35px;
+    font-size: 45px;
     padding:30px 50px;
+    color: rgb(243, 78, 18);
+}
+.CoreValues{
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    font-family: 'Times New Roman';
+    flex-wrap: wrap;
+    background-color: rgba(26, 137, 228, 0.753);
+    padding: 30px 0px;
+    align-items: stretch;
 }
 .Aims-Container h3{
-    font-size: 30px;
-    font-family: tahoma;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
     margin-bottom: 20px;
-    color: orange;
+    color: rgb(255, 94, 0);
 }
 .Aims-Container p{
     font-size: 23px;
-    padding-bottom: 15px;
+    padding: 0px 25px 25px 25px;
+    letter-spacing: 3px;
 }
-.Aims-Container div{
-    width: 70%;
-    margin: auto;
-    margin-left: 70px;
-
+.Values{
+    margin: 10px 5px 30px 0px;
+    background-color: rgb(0, 183, 255);
+    flex-basis: 40%;
+    padding: 25px; 
+}
+@media screen and (max-width: 1050px){
+    .CoreValues{
+        display: block;
+    
+    }
+    .Values{
+        margin: 40px auto;
+        width: 65%;
+    }
 }
 
 @media screen and (max-width: 1000px){
 .Aims-Container p{
-    font-size: 20px;
+    font-size: 24px;
 }
 .Aims-Container h3{
-    font-size: 22px;
+    font-size: 25px;
 }
+
+}
+@media screen and (max-width: 850px){
+    .Aims-Container{
+        background-size: 110%;
+    }
 }
 @media screen and (max-width: 500px){
     body{

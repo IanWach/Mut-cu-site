@@ -9,9 +9,11 @@ function Introduction(){
         <div className="Main-Container">
            
             <div className="container">
-                <img className="Image-Banner" src={"/images/IntroBanner.jpg"}/>
-                <div className="Intro-Banner">
-                    <h1>WHO WE ARE ?</h1>
+
+                <div className="Image-Banner"> 
+                    <div className="Intro-Banner"> 
+                        <h1>WHO WE ARE ?</h1>
+                    </div>
                 </div>
             </div>
             <img className="Image-Logo" src={"/images/MutcuLogo.png"}/>
@@ -21,7 +23,7 @@ function Introduction(){
                     <p className="IntroP-2">Ex nostrud consectetur occaecat sint veniam quis laboris ex enim aliquip sunt sint. Minim aute et reprehenderit sit. Aute nisi proident veniam ea adipisicing amet duis velit nostrud non laboris occaecat duis cillum. Ad proident eiusmod proident tempor tempor consectetur adipisicing esse minim ea velit magna commodo.</p>
                     <div className="Side-Container" className="Hide-Image">
                     <div>
-                        <img className="ian" src={"/images/ch.JPG"} />
+                        <img className="ParImg" src={"/images/ch.JPG"} />
                     </div>
                     </div>
                     <p className="IntroP-3"> Cillum ut esse deserunt laborum. Labore officia reprehenderit veniam Lorem aliquip culpa ad ipsum culpa deserunt eiusmod. Velit ex voluptate esse voluptate magna amet occaecat enim voluptate fugiat occaecat labore eiusmod Lorem.</p>
@@ -29,7 +31,7 @@ function Introduction(){
                 </div>
                 <div className="Side-Container">
                     <div>
-                        <img className="ian" Id="Hide-Img" src={"/images/ch.JPG"} />
+                        <img className="ParImg" id="Hide-Img" src={"/images/ch.JPG"} />
                     </div>
                     <div className="Activity-list">
                         <p>What we do</p>
@@ -58,16 +60,22 @@ function Introduction(){
                     )
                 })}
             </div>
-            <div className="Aims-Container">
-                <h2 className="Aims-Heading">Aims of the Union</h2> 
+            <h2 className="Aims-Heading">Core Values</h2>  
+            <div className="Aims-Container">   
+            <div className="CoreValues">
             {InformationData.map((Item, index) =>{
                 return(
-                    <div key={index} className={Item.cName}>
-                        <h3>{Item.Heading}</h3>
-                        <p>{Item.Content}</p>                
-                    </div>
+                    
+                        <div key={index} className={Item.cName} className="Values">
+                            <h3>{Item.Heading}</h3>
+                            <p>{Item.Content}</p>                
+                        </div>
+                    
                 )
-            })}
+                
+            }
+            )}</div> 
+            
             </div>
         </div>
     )

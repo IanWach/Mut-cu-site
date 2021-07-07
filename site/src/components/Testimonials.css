@@ -8,13 +8,14 @@ body{
 }
 .test-div{
     border: 3px greenyellow solid;
-    padding: 40px 100px;
+    padding: 40px 50px;
     flex: 1;
-    min-width: 480px;
-    margin: 100px 2px;
+    min-width: 450px;
+    margin: 50px 2px;
+    border-radius: 15px;
 }
 .test-div p{
-    font-size: 25px;
+    font-size: 22px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .test-div h3{
@@ -40,6 +41,6 @@ body{
 }
 .Main-Heading {
     font-size: 50px;
-    margin: 50px 0px 30px 40px;
+    margin: 50px 0px 5px 40px;
     color:  rgb(255,60,77);
 }

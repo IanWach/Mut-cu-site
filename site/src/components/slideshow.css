@@ -1,0 +1,37 @@
+*{
+
+}
+
+body{
+
+}
+
+.fa-angle-Right{
+    font-size: 50px;
+    position: absolute;
+    bottom: 50%;
+    Right:0px;
+}
+
+.fa-angle-Left{
+    font-size: 50px;
+    position: absolute;
+    bottom: 50%;
+    left:0px;
+    
+}
+.Slides-Container{
+    position: relative;
+    width:90%;
+    height: 550px;
+    background-color: rgb(23, 206, 206);
+    margin: auto;
+    margin-bottom: 55px;
+}
+.Slide-Head{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 20px;
+    margin-left: 30px;
+    color: rgb(25, 25, 102);
+    font-size: 30px;
+}

@@ -1,26 +1,47 @@
 /*.......This is the Membership Css Code........*/
-
+body{
+    
+}
 .Membership-Container{
-    padding: 30px;
+    padding: 30px 30px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    width: 85%;
+   
+}
+.Union-Membership{
+    display: flex;
+    margin: 0px;
+    background-color: rgb(94, 221, 243);
+    padding: 65px;
+}
+.Union-Membership li{
+    flex: 1;
+    background-color: aquamarine;
+    margin-left: 25px;
+    list-style: none;
 }
 .Membership-Container p{
-    color: green;
-    margin: 30px 0px 40px 80px ;
-    font-size: 23px;
+    color: rgb(15, 15, 15);
+    margin: 30px 0px 20px 40px ;
+    font-size: 20px;
     padding-bottom: 15px;
     padding-left: 20px;
     border-left:rgb(255, 166, 0) solid 3px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 30px;
 }
 .Membership-Container h2{
     color:rgb(255, 166, 0);
     margin-bottom: 20px;
-    margin-left: 50px;
+    margin-left: 10px;
 }
 .Membership-Container h1{
     margin-bottom: 25px;
-    font-size: 35px;
+    font-size: 40px;
+    color: rgb(28, 28, 88);
+}
+li{
+    list-style: upper-roman;
+    
 }
 
 @media screen and (max-width: 1000px){
