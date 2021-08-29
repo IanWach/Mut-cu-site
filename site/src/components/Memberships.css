@@ -10,27 +10,29 @@ body{
 .Union-Membership{
     display: flex;
     margin: 0px;
-    background-color: rgb(94, 221, 243);
     padding: 65px;
 }
 .Union-Membership li{
     flex: 1;
-    background-color: aquamarine;
-    margin-left: 25px;
+    background-color: rgb(235, 170, 49);
+    margin-left: 15px;
     list-style: none;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    
 }
 .Membership-Container p{
     color: rgb(15, 15, 15);
     margin: 30px 0px 20px 40px ;
-    font-size: 20px;
+    font-size: 24px;
     padding-bottom: 15px;
     padding-left: 20px;
-    border-left:rgb(255, 166, 0) solid 3px;
+    border-left:rgb(247, 54, 54) solid 3px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     line-height: 30px;
 }
 .Membership-Container h2{
-    color:rgb(255, 166, 0);
+    color:rgb(0, 0, 0);
     margin-bottom: 20px;
     margin-left: 10px;
 }
@@ -47,5 +49,9 @@ li{
 @media screen and (max-width: 1000px){
 .Membership-Container {
     margin-right: 10px;
+}
+.Union-Membership
+{
+    display: block;
 }
 }

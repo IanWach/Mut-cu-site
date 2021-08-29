@@ -6,10 +6,12 @@
     text-transform: uppercase;
     justify-content: space-around;
     margin: 0px 50px;
+    height: 300px;
+    padding: 10px 0px;
 }
 .Facts-Container p{
     padding: 10px 60px;
-    font-size: 45px;
+    font-size: 50px;
     font-weight: bold;
     color: rgb(226, 43, 43);
     width: 150px;
@@ -17,12 +19,13 @@
 }
 .Stats-Container h1{
     margin: 5px 0px 15px 40px;
-    font-size: 40px;
+    font-size: 45px;
     text-transform: uppercase;
     color: rgb(16, 16, 83);
 }
 .Facts-Container h2{
     padding: 40px 20px 10px 20px;
+    font-size: 35px;
 }
 @media screen and (max-width: 1000px){
 .Facts-Container{
@@ -34,18 +37,25 @@
 }
 .Stats-1{
     flex-basis: 50%;
-    padding: auto;
+    padding: 0;
 }
 .Stats-2{
     flex-basis: 50%;
-    padding: auto;
+    padding: 0;
 }
 .Stats-3{
     flex-basis: 50%;
-    padding: auto;
 }
 .Stats-4{
     flex-basis: 50%;
-    padding: auto;
+}
+}
+@media screen and (max-width: 800px){
+
+    .Stats-1{
+        font-size: 20px;
+        color: blueviolet;
+        justify-content:center;
+        margin: 0px 20px;
 }
 }

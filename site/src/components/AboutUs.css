@@ -16,13 +16,13 @@ body{
    text-align: center;
 }
 .container div{
-    width: 93vw;
+    width: 90vw;
     background-image: url(./IntroBanner.jpg);
     margin-left: 0px;
     margin-right: 0px;
     padding: 0px;
     height: 720px;
-    background-size: cover;
+    background-size: contain;
 
 }
 .Image-Logo{
@@ -72,15 +72,15 @@ em{
     transform: translate(-50%, -50%);
 }
 .ParImg{
-    width: 27vw;    
+    width: 550px;    
     height: auto;
     padding-left: 35px;
 }
 .Intro-Container p{
-    font-size: 19px;
+    font-size: 22px;
     margin-bottom: 22px;
     color: rgb(0, 0, 0);
-    line-height:30px;
+    line-height:35px;
     
 }
 .Par-Container{
@@ -88,7 +88,7 @@ em{
     padding-bottom: 2px;
     padding-top: 20px;
 }
-.Hide-Image{
+.HideImg{
     display: none;
 }
 .Intro-Container ol{
@@ -109,9 +109,11 @@ em{
 }
 .Side-Container{
     flex-basis: 35%;
+    height: inherit;
+    display: block;
 }
 .Activity-list{
-    margin-left: 35px;
+    margin-left: 10px;
     margin-top: 35px;
 }
 .Side-Container p{
@@ -121,6 +123,105 @@ em{
     padding: 10px 0px 0px 30px;
     margin-bottom: 0px;
 }
+.Side-Container img{
+
+}
+/*.........The Cu Information including Motto, Vision and Mission Statement.......*/
+
+.CuInfo-Container{
+ margin: 20px;
+ display: flex;
+ width: 95%;
+ flex-wrap: wrap;
+ justify-content: space-around;
+}
+.CuInfo-Heading{
+    color:white;
+    font-size: 40px;
+    padding-left: 70px;
+    text-decoration: underline double;
+}
+.CuInfo-Container h2{
+    font-size: 30px;
+    padding: 0px 25px 20px 15px;
+}
+.CuInfo-Container p{
+    color: white;
+    font-size: 22px;
+    padding: 0px 50px 0px 20px;
+    font-weight: bold;
+}
+.CuInfo-Container div{
+    color: White;
+    padding: 40px 20px;
+    height: 200px;
+    height: 90%px;
+    
+}
+.CuInfo-1{
+    flex-basis: 35%;
+    align-self: auto;
+    margin: auto;
+    background-color: rgb(17, 17, 124);
+}
+.CuInfo-2{
+    flex-basis: 50%;
+    background-color: red;
+}
+.CuInfo-3{
+    
+    flex-basis: 60%;
+    margin-top: 40px;
+    padding-top: 20px;
+    background-color: rgb(255, 102, 0);
+}
+
+/*....Aims Conatiner......*/
+
+.Aims-Container{
+ 
+ background-color: rgb(255, 255, 255);
+ background: url(./ChristianUnionImage3.JPG);
+ background-size:cover;
+}
+.Aims-Heading{
+    margin-bottom: 20px;
+    font-size: 45px;
+    padding:30px 50px;
+    color: rgb(243, 78, 18);
+}
+.CoreValues{
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    font-family: 'Times New Roman';
+    flex-wrap: wrap;
+    background-color: rgba(26, 137, 228, 0.753);
+    padding: 30px 0px;
+    align-items: stretch;
+}
+.Aims-Container h3{
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+    color: rgb(255, 94, 0);
+}
+.Aims-Container p{
+    font-size: 23px;
+    padding: 0px 25px 25px 25px;
+    letter-spacing: 3px;
+}
+.Values{
+    margin: 10px 5px 30px 0px;
+    background-color: rgb(0, 183, 255);
+    flex-basis: 40%;
+    padding: 25px; 
+}
+
+
+
+
+
 /* .......The Media Query for change in screen size for the Intro Conateiner;........*/
 @media screen and (max-width: 1200px) {
     .Intro-Container p{
@@ -161,7 +262,7 @@ em{
     .Side-Container img{
         margin-right: 30px;
         padding-top: 30px;
-        width: 90%;
+        width: 65%;
     }
     
 }
@@ -206,7 +307,7 @@ em{
 @media screen and (max-width: 750px) {
     .Hide-Image{
         display: block;
-        width: 90%;
+        width: 95%;
         margin: auto;
         padding: 10px;
     }
@@ -214,70 +315,16 @@ em{
         display: none;
     }
 }
-/*.........The Cu Information including Motto, Vision and Mission Statement.......*/
-
-.CuInfo-Container{
- margin: 20px;
- display: flex;
- width: 95%;
- flex-wrap: wrap;
- justify-content: space-around;
-}
-.CuInfo-Heading{
-    color:white;
-    font-size: 40px;
-    padding-left: 70px;
-    text-decoration: underline double;
-}
-.CuInfo-Container h2{
-    font-size: 30px;
-    padding: 0px 25px 20px 15px;
-}
-.CuInfo-Container p{
-    color: white;
-    font-size: 22px;
-    padding: 0px 50px 0px 20px;
-    font-weight: bold;
-}
-.CuInfo-Container div{
-    color: White;
-    padding: 20px;
-    height: 90%px;
-    
-}
-.CuInfo-1{
-    flex-basis: 35%;
-    align-self: auto;
-    margin: auto;
-    background-color: rgb(17, 17, 124);
-}
-.CuInfo-2{
-    flex-basis: 50%;
-    background-color: red;
-}
-.CuInfo-3{
-    
-    flex-basis: 60%;
-    margin-top: 40px;
-    padding-top: 20px;
-    background-color: rgb(255, 102, 0);
-}
-
-@media screen and (max-width: 1000px){
-.CuInfo-Container{
-    display: block;
-    margin: 50px auto;
-    width: 70%;
-}
-.CuInfo-2{
-    margin-top: 50px;
-    height: 100%;
-}
-}
 @media screen and (max-width: 900px){
     .CuInfo-Container p{
         font-size: 22px;
         word-spacing: 5px;
+    }
+    .CuInfo-Container{
+        display: block;
+    }
+    .CuInfo-2, .CuInfo-2{
+        margin-top: 40px;
     }
 }
 @media screen and (max-width: 750px){
@@ -291,53 +338,10 @@ em{
 }
 }
 @media screen and (max-width: 500px){
-    .CuInfo-Container{
-        height: fit-content;
-    }
+  
     .Intro-Container p{
         font-size: 17px;   
     }
-}
-/*....Aims Conatiner......*/
-
-.Aims-Container{
- 
- background-color: rgb(255, 255, 255);
- background: url(./ChristianUnionImage3.JPG);
- background-size:cover;
-}
-.Aims-Heading{
-    margin-bottom: 20px;
-    font-size: 45px;
-    padding:30px 50px;
-    color: rgb(243, 78, 18);
-}
-.CoreValues{
-    display: flex;
-    justify-content: space-evenly;
-    color: white;
-    font-family: 'Times New Roman';
-    flex-wrap: wrap;
-    background-color: rgba(26, 137, 228, 0.753);
-    padding: 30px 0px;
-    align-items: stretch;
-}
-.Aims-Container h3{
-    font-size: 35px;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-bottom: 20px;
-    color: rgb(255, 94, 0);
-}
-.Aims-Container p{
-    font-size: 23px;
-    padding: 0px 25px 25px 25px;
-    letter-spacing: 3px;
-}
-.Values{
-    margin: 10px 5px 30px 0px;
-    background-color: rgb(0, 183, 255);
-    flex-basis: 40%;
-    padding: 25px; 
 }
 @media screen and (max-width: 1050px){
     .CoreValues{

@@ -23,7 +23,8 @@ export const TestimonialsData = [
         Role: 'Alumni',
         Description: 'Brief Intro and Impact they have seen from th Christian Uionn. All how they have worked with the union',
         cName: 'test-div'
-    },
+    }
+]/*
     {
         Image: "/images/Testimonials-Image-4.JPG",
         Name: 'Both Names',
@@ -46,3 +47,4 @@ export const TestimonialsData = [
         cName: 'test-div'
     }
 ]
+*/

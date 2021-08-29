@@ -2,7 +2,7 @@ import React from 'react'
 import Introduction from './Intro';
 import Testimonials from './Testimonials'
 import Stats from './Stats&Facts'
-import Slides from './Slideshow'
+import Slides from './slideshow'
 import Additional from './AdditionalInfo'
 import Membership from  './Memberships'
 
@@ -14,7 +14,7 @@ function AboutUs (){
     <Membership/>
     <Slides/>
     <Stats/>
-    {/*<Testimonials />*/}
+    <Testimonials />
     <Additional/>
   </div>
   )

@@ -21,9 +21,9 @@ function Introduction(){
                 <div className="Par-Container">
                     <p className="IntroP-1"><b>M</b>urng'a University of Technology Christian Union (MUTCU) is Et occaecat minim mollit quis dolore in deserunt. Sit incididunt eiusmod enim sint esse ut cillum. Reprehenderit pariatur anim reprehenderit eiusmod id consequat dolore. Fugiat ullamco esse qui adipisicing culpa nulla consectetur occaecat consectetur fugiat. Culpa eu in sit excepteur sint exercitation ad elit duis reprehenderit officia.</p>
                     <p className="IntroP-2">Ex nostrud consectetur occaecat sint veniam quis laboris ex enim aliquip sunt sint. Minim aute et reprehenderit sit. Aute nisi proident veniam ea adipisicing amet duis velit nostrud non laboris occaecat duis cillum. Ad proident eiusmod proident tempor tempor consectetur adipisicing esse minim ea velit magna commodo.</p>
-                    <div className="Side-Container" className="Hide-Image">
+                    <div  className="Hide-Image">
                     <div>
-                        <img className="ParImg" src={"/images/ch.JPG"} />
+                        <img className="HideImg" src={"/images/ch.JPG"} />
                     </div>
                     </div>
                     <p className="IntroP-3"> Cillum ut esse deserunt laborum. Labore officia reprehenderit veniam Lorem aliquip culpa ad ipsum culpa deserunt eiusmod. Velit ex voluptate esse voluptate magna amet occaecat enim voluptate fugiat occaecat labore eiusmod Lorem.</p>

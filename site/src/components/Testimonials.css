@@ -13,6 +13,7 @@ body{
     min-width: 450px;
     margin: 50px 2px;
     border-radius: 15px;
+    max-width: 330px;
 }
 .test-div p{
     font-size: 22px;
@@ -37,7 +38,8 @@ body{
 }
 .Testimonials-Containers{
     display: flex;
-    width: 1000px;
+    justify-content: space-around
+    
 }
 .Main-Heading {
     font-size: 50px;
